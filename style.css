@@ -1,0 +1,136 @@
+body {
+    background: #FEF8F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 1000px;
+    background: url("./img/Scene.png") no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header-car {
+    position: absolute;
+    bottom: -33%;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.nav-menu__item {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background:#EE4D47;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    color: #ffffff;
+    width: 60%;
+    padding-top: 125px;
+}
+
+.btn-started {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 60px;
+    padding: 0 40px 0 25px;
+}
+
+.content {
+    margin-top: 450px;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-block__image,
+.content-block__text {
+    width: 50%;
+}
+
+.content-block__image {
+    text-align: right;
+}
+
+.left-image {
+    text-align: left;
+    order: -1;
+}
+
+.content-title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #EE4D47;
+}
+
+.content-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402B2B;
+    width: 70%;
+    padding-top: 40px;
+}
+
+.content-notice {
+    width: 80%;
+    margin-top: 70px;
+    background: rgba(252, 221, 212, 0.4);
+    padding: 30px 55px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #402B2B;
+    border-left: 10px solid #ED4D47;
+}
+
